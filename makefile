@@ -1,8 +1,8 @@
 NAME = libenchant_win8.dll
 OBJDIR = ./OBJDIR
 SRCDIR = ./
-LDFLAGS = "`pkg-config --libs enchant-2`"
-CPPFLAGS = "`pkg-config --cflags enchant-2`"
+LDFLAGS = "`pkg-config --libs glib-2.0 enchant-2`"
+CPPFLAGS = "`pkg-config --cflags glib-2.0 enchant-2`"
 
 cpp_src = ./win8_provider.cpp
 cpp_obj = $(patsubst $(SRCDIR)/%.cpp,$(OBJDIR)/%.obj,$(cpp_src))

@@ -20,7 +20,6 @@
  * THE SOFTWARE.
  */
 
-#include "config.h"
 
 #include <Spellcheck.h>
 #include <glib.h>
