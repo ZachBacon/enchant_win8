@@ -27,7 +27,7 @@
 #include "typedef.h" // for ssize_t
 #include <enchant-provider.h>
 
-ENCHANT_PLUGIN_DECLARE ("win8")
+//ENCHANT_PLUGIN_DECLARE ("win8")
 
 /* --------- Utils ----------*/
 
@@ -282,7 +282,7 @@ init_enchant_provider (void)
 	provider->identify = win8_provider_identify;
 	provider->describe = win8_provider_describe;
 	provider->list_dicts = win8_provider_list_dicts;
-	provider->free_string_list = win8_provider_free_string_list;
+	//provider->free_string_list = win8_provider_free_string_list;
 
 	provider->user_data = factory;
 
